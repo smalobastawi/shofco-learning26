@@ -1,0 +1,1 @@
+s:228:"<strong>Stack trace: </strong> <ul style="text-align:left;"><li>line 85 of /public/lib/sessionlib.php: core\exception\moodle_exception thrown</li><li>line 32 of /public/theme/switchdevice.php: call to require_sesskey()</li></ul>";
