@@ -1,0 +1,113 @@
+.block_masterdashboard {
+    padding: 0;
+}
+
+/* DashboardIntro (Willkommenstext) */
+.block_masterdashboard .dashboardintro {
+    font-size: 0;
+    color: #595959;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+/* Sektionen */
+.block_masterdashboard .section {
+    margin: 2rem;
+}
+
+.block_masterdashboard .sectiontitle {
+    font-weight: 600;
+    color: #595959;
+    padding: 0.5rem;
+}
+
+.block_masterdashboard .section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 0.5px solid #2c3e50;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+/* Kurskarten */
+.block_masterdashboard .course-card {
+    display: flex;
+    align-items: center;
+    border-left: 8px solid transparent;
+    background: #f9f9f9;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Kursbild */
+.block_masterdashboard .course-thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 0.75rem;
+}
+
+/* Kursinhalt */
+.block_masterdashboard .course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_masterdashboard .course-info {
+    margin: 0;
+}
+
+.block_masterdashboard .course-info a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222;
+    text-decoration: none;
+}
+
+.block_masterdashboard .course-info a:hover {
+    text-decoration: underline;
+}
+
+.block_masterdashboard .date {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+/* Farbige Ränder je nach Status */
+.block_masterdashboard .course-card.overdue {
+    border-left-color: #e53935;
+}
+
+.block_masterdashboard .course-card.inprogress {
+    border-left-color: #fbc02d;
+}
+
+.block_masterdashboard .course-card.completed {
+    border-left-color: #43a047;
+}
+
+/* Mobile Ansicht */
+@media screen and (max-width: 600px) {
+    .block_masterdashboard .course-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .block_masterdashboard .course-thumb {
+        width: 50px;
+        height: 50px;
+        margin-right: 0.75rem;
+    }
+
+    .block_masterdashboard .course-content {
+        margin-left: 0;
+    }
+}
