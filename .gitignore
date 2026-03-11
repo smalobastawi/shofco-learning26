@@ -1,0 +1,16 @@
+# Sensitive system configs
+system/config.php
+system/public/config.php
+
+# Moodle data (NEVER track this)
+moodledata/
+
+# Cache
+system/public/cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
