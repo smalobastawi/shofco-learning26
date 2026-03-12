@@ -7,6 +7,11 @@ moodledata/
 
 # Cache
 system/public/cache/
+system/public/localcache/
+system/public/temp/
+
+# Backups
+system/public/backups/
 
 # Logs
 *.log
@@ -14,3 +19,18 @@ system/public/cache/
 # OS files
 .DS_Store
 Thumbs.db
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies (if not committing vendor/node_modules)
+system/vendor/
+node_modules/
+system/node_modules/
+
+# Development artifacts
+.grunt/
+system/.grunt/
