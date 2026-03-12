@@ -1,0 +1,138 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="qY_i50GQ-zCoSJ94c8pB7YPCXvichc0eZ7K_Npf7" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav = "http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>CAM 1.3</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>   
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>SHOFCO SEXUAL HARASSMENT &amp; ANTI-BULLYING POLICY AWARENESS TRAINING</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>SHOFCO SEXUAL HARASSMENT &amp; ANTI-BULLYING POLICY AWARENESS TRAINING</title>
+        
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/36d73045.js" />
+<file href="scormcontent/lib/rise/56803e6d.css" />
+<file href="scormcontent/lib/rise/0fcba500.js" />
+<file href="scormcontent/lib/rise/a061b32c.css" />
+<file href="scormcontent/lib/rise/83481681.js" />
+<file href="scormcontent/lib/rise/b0c74692.js" />
+<file href="scormcontent/lib/rise/8c0b49f4.js" />
+<file href="scormcontent/lib/rise/e29d46b6.js" />
+<file href="scormcontent/lib/rise/db85f2af.js" />
+<file href="scormcontent/lib/rise/4143ff81.js" />
+<file href="scormcontent/lib/rise/7967103f.js" />
+<file href="scormcontent/lib/rise/e6f6cd28.js" />
+<file href="scormcontent/lib/rise/6df44b14.js" />
+<file href="scormcontent/lib/rise/466ab4a9.js" />
+<file href="scormcontent/lib/rise/0bcec83e.js" />
+<file href="scormcontent/lib/rise/7e615df9.js" />
+<file href="scormcontent/lib/rise/3d69be23.js" />
+<file href="scormcontent/lib/rise/7c2963ab.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/5515a099.js" />
+<file href="scormcontent/lib/learn_dist/e06aa5e6.css" />
+<file href="scormcontent/lib/learn_dist/7acdcaff.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/ad3a3b3a.js" />
+<file href="scormcontent/lib/mondrian/9efea61d.js" />
+<file href="scormcontent/lib/mondrian/5dcfe29d.js" />
+<file href="scormcontent/lib/mondrian/09e37aee.js" />
+<file href="scormcontent/lib/mondrian/196251cf.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/c77685df.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/RobotoSlab-Bold.woff" />
+<file href="scormcontent/lib/fonts/RobotoSlab-Regular.woff" />
+<file href="scormcontent/lib/fonts/RobotoSlab-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/WhatsApp%20Image%202026-01.jpg" />
+<file href="scormcontent/assets/_FpiO0/WhatsApp%20Image%202026-01.jpg" />
+<file href="scormcontent/assets/quote_background.jpg" />
+<file href="scormcontent/assets/-NFo_u/mountains.jpg" />
+<file href="scormcontent/assets/abuse-bullying-colleague-.webp" />
+<file href="scormcontent/assets/map-balloon.jpg" />
+<file href="scormcontent/assets/x9G3Bs8wcgA_kpAL.png" />
+<file href="scormcontent/assets/Dw_Xc-fc0gYmLDEj.png" />
+<file href="scormcontent/assets/q7QJ_Qnuep0tP0ff.jpg" />
+<file href="scormcontent/assets/PUXKbJ3m9CDPX98G.jpg" />
+<file href="scormcontent/assets/V_eeUMIJF7RuuMiN.jpg" />
+<file href="scormcontent/assets/WUvy23IwDE2YVLl-.jpg" />
+<file href="scormcontent/assets/ycOJdO5Tu46RskaN.jpg" />
+<file href="scormcontent/assets/BB89xtvuEemVJ984.jpg" />
+<file href="scormcontent/assets/GJxIdQ0PyzxC6Brf.jpg" />
+<file href="scormcontent/assets/ghJohmuofxGzCynd.png" />
+<file href="scormcontent/assets/KAt2w8VOBD78n31q.jpg" />
+<file href="scormcontent/assets/X--e-4aVf-qa3JTd5x.jpg" />
+<file href="scormcontent/assets/Q3zkFGATLcbtYYDJ.png" />
+<file href="scormcontent/assets/yY_jsTwY_0ax12Ej.jpg" />
+<file href="scormcontent/assets/Npr1HAueD-JNmvbG.jpg" />
+<file href="scormcontent/assets/EEbSX9ALDMmUkWTq.jpg" />
+<file href="scormcontent/assets/MB0P9_2t1LIMbnHb.jpg" />
+<file href="scormcontent/assets/cml63hcxd01l107vqdhudggkx.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
